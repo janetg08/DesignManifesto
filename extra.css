@@ -1,0 +1,27 @@
+/* to remove default bullet points for each list */
+/* ul {
+  list-style-type: none;
+  text-align: left;
+  justify-content: left;
+} */
+
+/* to create unique bullet points from icons on Font Awesome */
+/* ul li::before {
+  content: "\f005";
+/*   want to use content: "\f101"; (https://hollypryce.com/font-awesome-bullet-points/) */
+/*   font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  padding: 0 10px 0 0;
+} */
+
+
+/* .container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: #727572;
+  background-color: #f0f0f0;
+  border-style: double;
+  border-color: #3e85d6;
+  padding: 2%;
+} */

@@ -1,0 +1,43 @@
+/* CSS files add styling rules to your content */
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&family=Yeseva+One&display=swap");
+
+/* sets the website background color
+default font type, color, and positioning on the webpage */
+/* sets these same properties for all buttons */
+body {
+  background-color: #e6e8e6;
+  font-family: "Crimson Text", serif;
+  color: #727572;
+  text-align: center;
+  padding: 5%
+}
+
+/* for the h1 page heading - special font, 
+special font color, top margin (not starting right at top of page), 
+and text underline */
+/* also for top row of each column - design category */
+h1,
+.card-title {
+  font-family: "Yeseva One", cursive;
+  color: #3e85d6;
+  text-align: center;
+  margin-top: 2%;
+  text-decoration: underline;
+}
+
+/* for any h4 section headings on the page - larger and italicized font */
+h4 {
+  font-style: italic;
+  text-align: center;
+}
+
+/* to specify the color of links on the cards */
+.card-link {
+  color: #3e85d6;
+}
+
+.card {
+  border-style: double;
+  border-color: #3e85d6;
+  height: 100%;
+}
